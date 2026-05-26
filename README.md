@@ -21,8 +21,8 @@ Phát hiện **56 loại biển báo giao thông Việt Nam** theo chuẩn QCVN 
 
 | Metric | Tập Val | Tập Test |
 |--------|---------|----------|
-| mAP@50 |  | 0.8263 | 0.9573 |
-| mAP@50-95 | 0.9429 | 0.8368 |
+| mAP@50 | 0.8263 | 0.8368 |
+| mAP@50-95 | 0.9429 | 0.9573 |
 | Precision | 0.9467 | 0.9373 |
 | Recall | 0.8900 | 0.8822 |
 
