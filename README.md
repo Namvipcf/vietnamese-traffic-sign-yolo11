@@ -184,6 +184,6 @@ MIT License — xem [LICENSE](LICENSE)
 
 ## 👤 Tác giả
 
-**[Tên của bạn]**
+**[Nguyễn Văn Bắc]**
 - GitHub: [@Namvipcf](https://github.com/Namvipcf)
 - Kaggle: [@bacnguyen2003](https://www.kaggle.com/bacnguyen2003)
