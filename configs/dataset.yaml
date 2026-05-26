@@ -1,0 +1,78 @@
+# Dataset Configuration - Vietnamese Traffic Sign Detection
+# Source: https://www.kaggle.com/datasets/bacnguyen2003/bien-bao-giao-thong-viet-nam
+# Format: YOLOv8/v11 compatible
+# Classes: 56 loại biển báo giao thông Việt Nam
+
+path: /kaggle/input/datasets/bacnguyen2003/bien-bao-giao-thong-viet-nam
+train: train/images
+val:   valid/images
+test:  test/images
+
+nc: 56
+
+names:
+  # Biển báo hết lệnh cấm
+  - Het_tat_ca_cac_lenh_cam          # DP-135
+
+  # Biển báo cấm (P)
+  - Cam_di_nguoc_chieu               # P-102
+  - Cam_o_to                         # P-103a
+  - Cam_o_to_re_phai                 # P-103b
+  - Cam_o_to_re_trai                 # P-103c
+  - Cam_mo_to                        # P-104
+  - Cam_xe_tai                       # P-106a
+  - Cam_xe_tai_gioi_han_tai_trong    # P-106b
+  - Cam_xe_o_to_khach                # P-107a
+  - Cam_nguoi_di_bo                  # P-112
+  - Han_che_trong_luong_xe           # P-115
+  - Han_che_chieu_cao_xe             # P-117
+  - Cam_re_trai                      # P-123a
+  - Cam_re_phai                      # P-123b
+  - Cam_quay_dau_xe                  # P-124a
+  - Cam_o_to_quay_dau_xe             # P-124b
+  - Cam_re_trai_va_quay_dau_xe       # P-124c
+  - Toc_do_toi_da_cho_phep           # P-127
+  - Cam_su_dung_coi                  # P-128
+  - Cam_dung_xe_va_do_xe             # P-130
+  - Cam_do_xe                        # P-131a
+  - Cam_re_trai_va_re_phai           # P-137
+  - Cam_xe_dap_dien_va_xe_may_dien   # P-245a
+
+  # Biển báo hiệu lệnh (R)
+  - Huong_di_thang_va_re_phai        # R-301c
+  - Huong_re_trai                    # R-301d
+  - Huong_re_phai                    # R-301e
+  - Di_vong_chướng_ngai_vat_phai     # R-302a
+  - Di_vong_chướng_ngai_vat_trai     # R-302b
+  - Vong_xuyen                       # R-303
+  - Duong_mot_chieu                  # R-407a
+  - Cho_quay_xe                      # R-409
+  - Bat_dau_duong_cao_toc            # R-425
+  - Lan_danh_rieng_cho_xe_buyt       # R-434
+
+  # Biển phụ (S)
+  - Cam_dung_va_do_xe_phu            # S-509a
+
+  # Biển báo nguy hiểm (W)
+  - Cho_ngoat_nguy_hiem_trai         # W-201a
+  - Cho_ngoat_nguy_hiem_phai         # W-201b
+  - Nhieu_cho_ngoat_lien_tiep_trai   # W-202a
+  - Nhieu_cho_ngoat_lien_tiep_phai   # W-202b
+  - Duong_thu_hep_ben_trai           # W-203b
+  - Duong_thu_hep_ben_phai           # W-203c
+  - Giao_nhau_nga_tu                 # W-205a
+  - Giao_nhau_nga_ba_phai            # W-205b
+  - Giao_nhau_nga_ba_trai            # W-205d
+  - Giao_nhau_duong_khong_uu_tien_hai_phia  # W-207a
+  - Giao_nhau_duong_khong_uu_tien_phai      # W-207b
+  - Giao_nhau_duong_khong_uu_tien_trai      # W-207c
+  - Giao_nhau_voi_duong_uu_tien      # W-208
+  - Giao_nhau_co_tin_hieu_den        # W-209
+  - Giao_nhau_duong_sat_co_rao_chan  # W-210
+  - Doc_xuong_nguy_hiem              # W-219
+  - Nguoi_di_bo_cat_ngang            # W-224
+  - Tre_em                           # W-225
+  - Cong_truong                      # W-227
+  - Nguy_hiem_khac                   # W-233
+  - Duong_doi                        # W-235
+  - Chuong_ngai_vat_tren_duong       # W-245a
