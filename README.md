@@ -21,10 +21,10 @@ Phát hiện **56 loại biển báo giao thông Việt Nam** theo chuẩn QCVN 
 
 | Metric | Tập Val | Tập Test |
 |--------|---------|----------|
-| mAP@50 |  | 0.82627 | 0.9573 |
-| mAP@50-95 | 0.94293 | 0.8368 |
-| Precision | 0.94666 | 0.9373 |
-| Recall | 0.89003 | 0.8822 |
+| mAP@50 |  | 0.8263 | 0.9573 |
+| mAP@50-95 | 0.9429 | 0.8368 |
+| Precision | 0.9467 | 0.9373 |
+| Recall | 0.8900 | 0.8822 |
 
 > Cập nhật sau khi huấn luyện xong — xem thêm tại [Kaggle Notebook](https://www.kaggle.com/code/bacnguyen2003/bi-n-b-o-giao-th-ng)
 
@@ -185,5 +185,5 @@ MIT License — xem [LICENSE](LICENSE)
 ## 👤 Tác giả
 
 **[Tên của bạn]**
-- GitHub: [@your_username](https://github.com/Namvipcf)
-- Kaggle: [@your_kaggle](https://www.kaggle.com/bacnguyen2003)
+- GitHub: [@Namvipcf](https://github.com/Namvipcf)
+- Kaggle: [@ybacnguyen2003](https://www.kaggle.com/bacnguyen2003)
