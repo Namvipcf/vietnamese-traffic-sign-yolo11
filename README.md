@@ -186,4 +186,4 @@ MIT License — xem [LICENSE](LICENSE)
 
 **[Tên của bạn]**
 - GitHub: [@Namvipcf](https://github.com/Namvipcf)
-- Kaggle: [@ybacnguyen2003](https://www.kaggle.com/bacnguyen2003)
+- Kaggle: [@bacnguyen2003](https://www.kaggle.com/bacnguyen2003)
