@@ -1,4 +1,4 @@
-# 🚦 Vietnamese Traffic Sign Detection — YOLOv11
+# Vietnamese Traffic Sign Detection — YOLOv11
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
 ![YOLOv11](https://img.shields.io/badge/YOLO-v11n-green)
@@ -10,14 +10,14 @@ Phát hiện **56 loại biển báo giao thông Việt Nam** theo chuẩn QCVN 
 
 ---
 
-## 📸 Demo
+## Demo
 
 <!-- Thêm ảnh predict mẫu sau khi có kết quả -->
 ![Sample Prediction](results/sample_predictions.png)
 
 ---
 
-## 📊 Kết quả mô hình
+## Kết quả mô hình
 
 | Metric | Tập Val | Tập Test |
 |--------|---------|----------|
@@ -30,7 +30,7 @@ Phát hiện **56 loại biển báo giao thông Việt Nam** theo chuẩn QCVN 
 
 ---
 
-## 📁 Cấu trúc dự án
+## Cấu trúc dự án
 
 ```
 vietnamese-traffic-sign-yolo11/
@@ -49,7 +49,7 @@ vietnamese-traffic-sign-yolo11/
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 | | |
 |---|---|
@@ -72,7 +72,7 @@ vietnamese-traffic-sign-yolo11/
 
 ---
 
-## 🚀 Kaggle Notebook
+## Kaggle Notebook
 
 Toàn bộ pipeline 9 bước chạy trên Kaggle GPU T4 x2:
 
@@ -88,11 +88,11 @@ Toàn bộ pipeline 9 bước chạy trên Kaggle GPU T4 x2:
 | 8 | Đánh giá trên tập test |
 | 9 | Inference ảnh & video, export TensorRT |
 
-🔗 [Xem notebook trên Kaggle](https://www.kaggle.com/code/bacnguyen2003/bi-n-b-o-giao-th-ng) 
+[Xem notebook trên Kaggle](https://www.kaggle.com/code/bacnguyen2003/bi-n-b-o-giao-th-ng) 
 
 ---
 
-## 🖥️ Chạy Demo local
+## Chạy Demo local
 
 ```bash
 # Clone repo
@@ -115,7 +115,7 @@ Mở trình duyệt tại `http://localhost:7860` — giao diện hỗ trợ:
 
 ---
 
-## ⚙️ Tham số huấn luyện
+## Tham số huấn luyện
 
 | Tham số | Giá trị |
 |---------|---------|
@@ -129,7 +129,7 @@ Mở trình duyệt tại `http://localhost:7860` — giao diện hỗ trợ:
 
 ---
 
-## 🛠️ Cài đặt & chạy local
+## Cài đặt & chạy local
 
 ```bash
 # Clone repo
@@ -156,7 +156,7 @@ python scripts/inference_video.py --source video.mp4 --weights weights/best.pt
 
 ---
 
-## 📈 Kết quả trực quan
+## Kết quả trực quan
 
 | Training Curves | Confusion Matrix |
 |:---:|:---:|
@@ -164,7 +164,7 @@ python scripts/inference_video.py --source video.mp4 --weights weights/best.pt
 
 ---
 
-## 🗂️ Môi trường huấn luyện
+## Môi trường huấn luyện
 
 | | |
 |---|---|
@@ -176,14 +176,14 @@ python scripts/inference_video.py --source video.mp4 --weights weights/best.pt
 
 ---
 
-## 📄 License
+## License
 
 MIT License — xem [LICENSE](LICENSE)
 
 ---
 
-## 👤 Tác giả
+## Tác giả
 
-**[Nguyễn Văn Bắc]**
+**Nguyễn Văn Bắc**
 - GitHub: [@Namvipcf](https://github.com/Namvipcf)
 - Kaggle: [@bacnguyen2003](https://www.kaggle.com/bacnguyen2003)
