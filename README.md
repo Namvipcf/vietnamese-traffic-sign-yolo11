@@ -1,7 +1,7 @@
 # Vietnamese Traffic Sign Detection — YOLO11n
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
-![YOLOv11](https://img.shields.io/badge/YOLO-v11n-green)
+![YOLOv11](https://img.shields.io/badge/YOLO-11n-green)
 ![Kaggle](https://img.shields.io/badge/Trained%20on-Kaggle%20T4%20x2-20BEFF?logo=kaggle&logoColor=white)
 ![Classes](https://img.shields.io/badge/Classes-56-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
