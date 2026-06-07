@@ -1,4 +1,4 @@
-# Vietnamese Traffic Sign Detection — YOLOv11
+# Vietnamese Traffic Sign Detection — YOLO11n
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
 ![YOLOv11](https://img.shields.io/badge/YOLO-v11n-green)
@@ -6,7 +6,7 @@
 ![Classes](https://img.shields.io/badge/Classes-56-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-Phát hiện **56 loại biển báo giao thông Việt Nam** theo chuẩn QCVN 41:2019/BGTVT sử dụng mô hình **YOLOv11n**, huấn luyện trên Kaggle GPU T4 x2 với dataset public từ Roboflow.
+Phát hiện **56 loại biển báo giao thông Việt Nam** theo chuẩn QCVN 41:2019/BGTVT sử dụng mô hình **YOLO11n**, huấn luyện trên Kaggle GPU T4 x2 với dataset public từ Roboflow.
 
 ---
 
@@ -185,5 +185,5 @@ MIT License — xem [LICENSE](LICENSE)
 ## Tác giả
 
 **Nguyễn Văn Bắc**
-- GitHub: [@Namvipcf](https://github.com/Namvipcf)
-- Kaggle: [@bacnguyen2003](https://www.kaggle.com/bacnguyen2003)
+- GitHub: (https://github.com/Namvipcf)
+- Kaggle: (https://www.kaggle.com/bacnguyen2003)
